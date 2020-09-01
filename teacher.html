@@ -24,6 +24,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">ABOUT</a></li>
+                <li><a href="#register">REGISTER</a></li>
                 <li><a href="#contact">CONTACT</a></li>
                 <li><a href="login.html" id="login-button">LOGIN</a></li>
               </ul>
@@ -36,26 +37,62 @@
         <section id="home">
          <div class="home"> <div class="heading" id="thesoftnote"><h1>The Softnote</h1>
             <p class="lead">Make your teaching more efficient for students,<br>by clicking the button below</p>
+          <input id="upload" class="btn-ripple" type="button" value="upload">
           </div>
           <div class="heading" id="pdf"><img style=" width: 700px; height: 600px;"src="pdf.png" alt="pdf image">
           </div>
         </div>
         </section>
 
+       
+
 
         <section id="about">
             <div class="about"> <div class="grid-about"><h1>About</h1>
                 <p class="lead">A website designed and devolped by two  misers,<br> to digitize all the printed notes, These 2 poeple made this one stop shop.</p>
             </div>
-            <div class="grid-about"></div>
+            <div class="grid-about" id=""></div>
           </div>
         </section>
+
+        <section id="register">
+          <div class="register"> <div class="grid-register"><h1>Register</h1>
+              <p class="lead">Lets get you started.</p>
+          </div>
+          <div class="grid-register" id="register-form">
+            <form action="#">
+              <input type="text" class="input" id="first-name" placeholder="First name">
+              <input type="text" class="input" id="last-name" placeholder="Last name">
+              <br>
+              <input type="email" class="input" id="email" placeholder="Email">
+              <br>
+              <input type="text" class="input" id="faculty-id" placeholder="Faculty Id"><br>
+              <input type="password" class="input" id="create-password" placeholder="Create password">
+              <input type="password" class="input" id="retype-password" placeholder="Retype password"><br>
+              <input type="text" class="input" id="department" placeholder="Department"><br>
+              <input type="text" class="input" id="institution" placeholder="Instution">  
+              <br>
+              <input type="submit" class="btn-register" id="btn-register" value="Register">
+            </form>
+          </div>
+        </div>
+      </section>
 
 
         <section id="contact">
           <div class="contact"><div class="grid-contact"><h1>Contact Us</h1>
             <p class="lead">Have difficulties using this website?<br>Please let us know int the adjeacent form<br>to serve you better.</p></div>
-            <div class="grid-contact"></div>
+            <div class="grid-contact">
+              <form action="#">
+                <input type="text" class="contact-input" id="first-name" placeholder="First name">
+                <input type="text" class="contact-input" id="last-name" placeholder="Last name">
+                <br>
+                <input type="email" class="contact-input" id="email" placeholder="Email">
+                <textarea id="message" rows="4" cols="55" name="comment" form="usrform" placeholder="Message/suggestions"></textarea>
+                <br>
+                <input type="submit" class="btn-submit" id="btn-submit" value="submit">
+                </form>
+            </div>
           </div>
         </section>
       </div>
